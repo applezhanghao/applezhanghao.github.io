@@ -1,0 +1,4 @@
+---
+layout: default
+---
+<article class="article-page card"><span class="pill">{{ page.category | default: '使用文章' }}</span><h1>{{ page.title }}</h1><p class="article-date">更新于 {{ page.date | date: '%Y-%m-%d' }}</p><div class="article-content">{{ content }}</div></article>
