@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://applezhanghao.github.io/sitemap.xml

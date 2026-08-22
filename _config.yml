@@ -1,0 +1,23 @@
+title: AppDownload Guide
+description: Shadowrocket 下载、小火箭账号、设备条件与账户安全的原创资讯站。
+url: "https://applezhanghao.github.io"
+baseurl: ""
+lang: zh-Hant
+markdown: kramdown
+permalink: /articles/:name/
+collections:
+  articles:
+    output: true
+    permalink: /articles/:name/
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      path: "_articles"
+      type: articles
+    values:
+      layout: article
+exclude:
+  - README.md

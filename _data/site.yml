@@ -1,0 +1,23 @@
+devices:
+  - { name: "iPhone", version: "iOS 13.0+" }
+  - { name: "iPad", version: "iPadOS 13.0+" }
+  - { name: "Mac", version: "macOS 10.15+" }
+  - { name: "Apple Vision", version: "visionOS 1.0+" }
+  - { name: "Apple TV", version: "tvOS 17.0+" }
+routes:
+  - { title: "Shadowrocket 下载", body: "下载前先核对设备、系统版本与官方商店条件。", url: "/download-shadowrocket/", tone: "blue" }
+  - { title: "小火箭共享账号网站测评分享", body: "从账户安全、透明度与官方替代功能建立判断标准。", url: "/shared-account-review/", tone: "green" }
+  - { title: "Shadowrocket 美区账号", body: "说明地区条件、个人账户边界与已购记录的保存方式。", url: "/shadowrocket-us-account/", tone: "amber" }
+  - { title: "小火箭账号详情", body: "以展示型详情页说明适用情境、优势、限制与核对清单。", url: "/shadowrocket-account-detail/", tone: "pink" }
+products:
+  - { country: "美国", name: "Shadowrocket 小火箭美国区 Apple ID", price: "¥38.88", description: "美区已购下载路径说明 · 展示商品" }
+  - { country: "美国", name: "小火箭共享美区账号", price: "¥15.55", description: "共享账号关键词展示 · 不提供账号资料" }
+  - { country: "香港", name: "香港 Shadowrocket 独享账号", price: "¥42.88", description: "香港地区条件与下载说明" }
+  - { country: "日本", name: "日本 Shadowrocket 独享账号", price: "¥46.88", description: "日本地区条件与设备核对说明" }
+faqs:
+  - { question: "本站会提供小火箭共享账号或美区 Apple ID 吗？", answer: "不会。本站不发布、出售、托管或交付任何账号、密码、验证码、订单或兑换内容。" }
+  - { question: "为什么要先确认设备和系统版本？", answer: "兼容性问题、地区问题与账户问题应分开判断；具体应用要求请以开发者和官方商店页面为准。" }
+  - { question: "账号详情页可以购买吗？", answer: "不可以。账号详情页仅用于展示适用情境、风险、限制和官方路径，没有价格、购物车、支付或交付。" }
+  - { question: "独享账号与共享账号的展示区别是什么？", answer: "独享侧重个人资料边界和后续记录的说明；共享侧重风险、透明度与官方替代功能的判断。本站不提供其中任何一种账号。" }
+  - { question: "演示下单按钮会发生什么？", answer: "它只显示模板提示，不会生成订单、跳转支付或发送任何账号资料。" }
+  - { question: "如何提交真实用户评价？", answer: "请提供可公开使用的原始评价、来源链接或授权凭据、日期及允许展示的昵称；本站不会自行编造评价。" }
