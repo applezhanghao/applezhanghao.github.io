@@ -3,7 +3,19 @@ layout: review-guide
 title: 小火箭共享账号网站测评｜小火箭共享ID与Shadowrocket共享账号推荐
 badge: 小火箭共享 / 测评与选择
 intro: 小火箭共享账号、小火箭共享ID、Shadowrocket共享账号、苹果共享ID、美区Apple ID这些词经常被混在一起讨论。本站围绕小火箭ID、Shadowrocket共享ID与苹果共享ID整理了这份测评与选择说明，帮助你在了解共享账号类型、稳定性、使用难度与安全边界之后，再决定是否需要以及如何选择。页面所有评分均为模拟数据，仅作横向比较参考。
+rankings:
+  - { name: 火箭优选站, score: "9.3", stable: "9.2", stars: "★★★★★", tag: 新手友好, note: 美区ID为主，下载教程完整，对新用户最友好 }
+  - { name: 小火箭之家, score: "9.1", stable: "9.0", stars: "★★★★★", tag: 稳定优先, note: 老牌共享站点，长期在线，稳定性表现靠前 }
+  - { name: 共享ID指南网, score: "8.9", stable: "8.8", stars: "★★★★☆", tag: 综合类, note: 覆盖多类型共享账号，说明文档较全 }
+  - { name: 火箭账号库, score: "8.7", stable: "8.6", stars: "★★★★☆", tag: 下载类, note: 主打 Shadowrocket 下载，App Store 路径说明清楚 }
+  - { name: 美区ID优选, score: "8.5", stable: "8.7", stars: "★★★★☆", tag: 美区专区, note: 专注美区 Apple ID，地区覆盖单一但深度较好 }
+  - { name: 小火箭资源导航, score: "8.4", stable: "8.3", stars: "★★★★☆", tag: 导航类, note: 资源与教程聚合，适合对比多家后再决定 }
+  - { name: 苹果共享ID站, score: "8.2", stable: "8.0", stars: "★★★★☆", tag: 综合类, note: 以苹果生态账号为主，使用规则说明明确 }
+  - { name: 火箭玩家社区, score: "8.0", stable: "7.9", stars: "★★★★☆", tag: 社区类, note: 用户讨论与经验分享多，适合参考真实反馈 }
+  - { name: 小火箭工具箱, score: "7.8", stable: "7.9", stars: "★★★☆☆", tag: 工具类, note: 附带检测类工具，适合进阶用户辅助判断 }
+  - { name: 共享账号资讯站, score: "7.6", stable: "7.5", stars: "★★★☆☆", tag: 资讯类, note: 行业资讯与教程更新较快，内容深度一般 }
 rows:
+
   - { name: 共享ID A, type: Apple ID, region: 美国, score: "9.3", stable: "9.2", stars: "★★★★★", audience: 新手 }
   - { name: 共享ID B, type: Apple ID, region: 美国, score: "9.0", stable: "8.9", stars: "★★★★☆", audience: 普通用户 }
   - { name: 共享ID C, type: Apple ID, region: 美国, score: "8.7", stable: "8.6", stars: "★★★★☆", audience: 熟悉用户 }
