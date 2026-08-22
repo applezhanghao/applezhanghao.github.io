@@ -1,9 +1,10 @@
 ---
 layout: default
-title: Shadowrocket 下载与小火箭账号说明
-description: 围绕 Shadowrocket 下载、小火箭账号、设备条件与账户安全的原创内容入口。
+title: Shadowrocket小火箭下载与账号使用攻略
+description: Shadowrocket小火箭怎么下载？提供iOS下载安装、美区Apple ID账号说明、设备系统要求与账户安全指南，解决小火箭下载安装中的常见问题。
+keywords: shadowrocket下载,小火箭下载,小火箭账号,shadowrocket账号,美区apple id,小火箭安装
 ---
-<section class="hero card"><span class="pill">App Store 下载路径 / 账号说明 / 风险提示</span><h1>Shadowrocket 下载<br>与小火箭账号说明</h1><p>围绕「小火箭共享账号网站」「Shadowrocket 下载」「小火箭账号」「美区 Apple ID 共享」等关键词整理的原创内容入口。本站只提供条件说明与阅读路径，不提供账户或交易服务。</p><div class="hero-actions"><a class="button" href="#faq">查看关键词栏目 →</a><a class="text-link" href="{{ '/download-shadowrocket/' | relative_url }}">怎么选择 →</a></div></section>
+<section class="hero card"><span class="pill">App Store 下载路径 / 账号说明 / 风险提示</span><h1>Shadowrocket 小火箭下载<br>与账号使用攻略</h1><p>围绕「小火箭共享账号网站」「Shadowrocket 下载」「小火箭账号」「美区 Apple ID 共享」等关键词整理的原创内容入口。本站只提供条件说明与阅读路径，不提供账户或交易服务。</p><div class="hero-actions"><a class="button" href="#faq">查看关键词栏目 →</a><a class="text-link" href="{{ '/download-shadowrocket/' | relative_url }}">怎么选择 →</a></div></section>
 <section class="card latest-card"><div class="section-heading"><span class="pill">最新文章</span><h2>最新文章与更新</h2><p>每日更新的原创内容，覆盖设备、账号与使用说明。</p></div><div class="latest-grid">{% for post in site.posts limit:10 %}<article><span class="latest-date">{{ post.date | date: "%Y-%m-%d" }}</span><h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3></article>{% endfor %}</div></section>
 <section class="card support-card"><div class="section-heading"><span class="eyebrow">▣ 设备支持</span><h2>Shadowrocket 支持的 iOS 设备与系统要求</h2><p>先确认你的设备和系统版本是否符合应用开发者与官方商店所列要求。</p></div><div class="spec-grid"><div><span>支持设备</span><b>iPhone · iPad · iPod touch · Apple Vision · Apple TV · Mac</b></div><div><span>最低系统</span><b>iOS / iPadOS 13.0+；其他平台以 App Store 页面为准</b></div><div><span>安装包大小</span><b>53.8 MB <small>（iPhone / iPad 页面显示值）</small></b></div></div><div class="device-grid">{% for item in site.data.site.devices %}<div><span class="device-dot">◌</span><b>{{ item.name }}</b><span>{{ item.version }}</span></div>{% endfor %}</div><div class="warning">⊘ <b>提醒：</b>安装包大小会随版本与系统环境变化；安卓、Windows 与鸿蒙设备不能直接运行 iOS 版本应用。</div></section>
 <section class="route-grid">{% for item in site.data.site.routes %}<article class="route-card {{ item.tone }}"><div class="route-icon">{{ forloop.index | prepend: '0' }}</div><h2>{{ item.title }}</h2><p>{{ item.body }}</p><a href="{{ item.url | relative_url }}">查看 →</a></article>{% endfor %}</section>
