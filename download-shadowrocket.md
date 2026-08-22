@@ -1,5 +1,5 @@
 ---
-layout: guide
+layout: download-guide
 title: Shadowrocket 下载说明
 keyword: Shadowrocket 下载
 badge: 下载小火箭 / 设备与商店检查
