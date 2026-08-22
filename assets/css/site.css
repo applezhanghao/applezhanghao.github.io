@@ -45,3 +45,20 @@
 .inline-links a{display:inline-flex;align-items:center;gap:6px;padding:9px 14px;border-radius:9px;color:#fff;background:linear-gradient(135deg,#2fa9fc,#168fe5);font-size:11px;font-weight:800;text-decoration:none}
 .inline-links a:hover{background:#1584d0}
 @media(max-width:640px){.review-table-card{padding:26px 16px}.section-block{padding:26px 16px}.review-table{font-size:10px}.review-table th,.review-table td{padding:9px 8px}.section-block .rich-text{font-size:12px;line-height:1.9}}
+
+/* === review top10 ranking === */
+.rank-card{padding:34px;margin-top:13px}
+.rank-list{margin:24px 0 0;padding:0;list-style:none;display:grid;gap:8px}
+.rank-item{display:grid;grid-template-columns:38px 1.1fr 1.7fr 1fr auto;align-items:center;gap:12px;padding:13px 16px;border:1px solid #e2ebf3;border-radius:12px;background:#f9fcff}
+.rank-no{width:30px;height:30px;display:grid;place-items:center;border-radius:50%;color:#5b7186;background:#e8eff5;font-weight:800;font-size:12px}
+.rank-item:nth-child(1) .rank-no{color:#fff;background:linear-gradient(135deg,#f2b53c,#e0980f)}
+.rank-item:nth-child(2) .rank-no{color:#fff;background:linear-gradient(135deg,#c9d4dd,#9fb0bf)}
+.rank-item:nth-child(3) .rank-no{color:#fff;background:linear-gradient(135deg,#d99a6c,#c07a4a)}
+.rank-info{display:flex;align-items:center;gap:8px;min-width:0}
+.rank-info b{font-size:13px;color:#33465c;white-space:nowrap}
+.rank-tag{padding:3px 8px;border-radius:999px;color:#258edf;background:#e5f4ff;font-size:9px;font-weight:700;white-space:nowrap}
+.rank-note{color:#748296;font-size:10px;line-height:1.6}
+.rank-stars{color:#e6a817;font-size:12px;letter-spacing:1px;white-space:nowrap}
+.rank-score{text-align:right;font-weight:800;font-size:13px;color:#2e4e68;white-space:nowrap}
+.rank-score small{display:block;color:#9aa8b8;font-size:9px;font-weight:500}
+@media(max-width:640px){.rank-item{grid-template-columns:34px 1fr auto;gap:8px;padding:11px 12px}.rank-note{grid-column:2/-1}.rank-score{text-align:right}}
