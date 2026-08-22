@@ -23,4 +23,7 @@ products:
   - { country: 香港, name: 香港 Shadowrocket 独享账号｜App Store 下载说明, price: "¥42.88", description: 香港地区条件与已购记录的展示内容 }
   - { country: 台湾, name: 台湾 Shadowrocket 独享账号｜App Store 下载说明, price: "¥42.88", description: 台湾地区条件与设备支持的展示内容 }
   - { country: 日本, name: 日本 Shadowrocket 独享账号｜App Store 下载说明, price: "¥46.88", description: 日本地区条件与官方页面核对说明 }
+  - { country: 美国, name: 小火箭共享ID账号｜App Store 共享下载, price: "¥12.88", description: 共享ID式展示 · 仅供阅读共享边界 }
+  - { country: 新加坡, name: 新加坡 Shadowrocket 独享账号｜下载说明, price: "¥44.88", description: 新加坡地区条件展示内容 }
+  - { country: 韩国, name: 韩国 Shadowrocket 独享账号｜下载说明, price: "¥43.88", description: 韩国地区与设备支持展示 }
 ---
