@@ -24,3 +24,24 @@
 .article-tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:14px}
 .article-tags .tag-chip{background:#f0f6fc;color:#4e7ba3}
 .article-page{padding:45px;max-width:900px;margin:0 auto}.article-page h1{margin:14px 0 0;font-size:clamp(40px,5vw,62px);line-height:1}.article-date{color:var(--muted);font-size:11px}.article-content{margin-top:30px;color:#4d5d70;font-size:15px;line-height:2}.not-found{padding:100px 30px;text-align:center}.not-found h1{font-size:52px}.site-footer{padding:44px max(24px,calc((100vw - 1240px)/2)) 18px;color:#cedbea;background:var(--dark)}.footer-grid{max-width:1240px;margin:auto;display:grid;grid-template-columns:1.3fr .7fr 1fr;gap:65px}.brand.inverse{color:#fff}.footer-grid p{max-width:380px;margin:14px 0 0;color:#aab9ca;font-size:11px;line-height:1.8}.footer-grid h3{margin:0 0 13px;color:#8bbdf0;font-family:'Noto Sans TC',sans-serif;font-size:11px}.footer-grid a:not(.brand){display:block;margin-top:8px;color:#d7e2ee;font-size:11px;text-decoration:none}.footer-bottom{max-width:1240px;margin:34px auto 0;padding-top:15px;border-top:1px solid rgba(255,255,255,.12);color:#8394a7;font-size:9px}.toast{position:fixed;right:18px;bottom:18px;z-index:20;max-width:300px;padding:11px 14px;border-radius:9px;color:#fff;background:#26384b;box-shadow:0 10px 30px rgba(0,0,0,.2);font-size:11px;opacity:0;transform:translateY(8px);pointer-events:none;transition:.2s}.toast.visible{opacity:1;transform:translateY(0)}@media(max-width:920px){.route-grid,.home-product-grid,.latest-grid{grid-template-columns:repeat(2,1fr)}.tutorial,.steps-card,.notes,.share-panel,.related-panel,.feedback{grid-template-columns:1fr;gap:24px}.note-grid,.review-grid{grid-template-columns:repeat(3,1fr)}.footer-grid{grid-template-columns:1fr 1fr;gap:35px}.footer-grid>div:last-child{grid-column:1/-1}}@media(max-width:640px){.site-header{padding:6px 8px}.site-nav{min-height:47px;padding:0 11px}.site-nav nav,.mode-pill{display:none}.main-shell{width:min(100% - 18px,1240px);margin-top:9px;padding-bottom:45px}.hero{min-height:0;padding:40px 17px 34px}.hero h1{font-size:clamp(36px,11vw,48px)}.hero p,.detail-hero>p{font-size:12px}.support-card,.home-products,.core-card,.product-showcase,.faq-card,.reviews,.share-guide,.feedback{padding:26px 16px}.spec-grid,.device-grid,.route-grid,.home-product-grid,.latest-grid,.tutorial ol,.note-grid,.faq-grid,.compare-grid,.review-grid,.share-guide-grid,.product-grid,.share-actions{grid-template-columns:1fr}.article-layout{grid-template-columns:1fr}.article-sidebar{position:static}.warn-panel{grid-template-columns:1fr}.device-grid>div{grid-template-columns:20px 1fr auto}.tutorial,.steps-card,.notes{padding:26px 18px}.demo-card{padding:17px}.product-card{grid-template-columns:92px 1fr}.related-panel{padding:24px 18px}.related-panel>div:last-child{grid-template-columns:1fr}.footer-grid{grid-template-columns:1fr;gap:26px}.footer-grid>div:last-child{grid-column:auto}.site-footer{padding:36px 22px 17px}}
+
+/* === review-guide layout === */
+.review-table-card{padding:34px}
+.review-table-card .table-wrap{margin-top:26px;overflow-x:auto}
+.review-table{width:100%;border-collapse:collapse;font-size:11px}
+.review-table th{background:#edf5fc;color:#2f506b;font-weight:800;text-align:left;padding:14px 12px;border-bottom:2px solid #d2e2f0}
+.review-table td{padding:11px 12px;border-bottom:1px solid #e8edf2;color:#40596b}
+.review-table tbody tr:hover{background:#f5faff}
+.review-table .stars{color:#e6a817;font-size:12px;letter-spacing:2px}
+.table-note{margin-top:18px;color:#8090a3;font-size:10px;font-style:italic;line-height:1.6}
+.section-block{padding:34px}
+.section-block .rich-text{max-width:900px;margin:18px 0 0;color:#435b6f;font-size:13px;line-height:2.1}
+.section-block .rich-text p{margin:14px 0}
+.section-block .rich-text strong{color:#324a5e}
+.diff-table{max-width:720px;margin:22px 0 0}
+.diff-table th:first-child{width:26%}
+.diff-table td:first-child{font-weight:700;color:#2f4e68}
+.inline-links{margin-top:16px}
+.inline-links a{display:inline-flex;align-items:center;gap:6px;padding:9px 14px;border-radius:9px;color:#fff;background:linear-gradient(135deg,#2fa9fc,#168fe5);font-size:11px;font-weight:800;text-decoration:none}
+.inline-links a:hover{background:#1584d0}
+@media(max-width:640px){.review-table-card{padding:26px 16px}.section-block{padding:26px 16px}.review-table{font-size:10px}.review-table th,.review-table td{padding:9px 8px}.section-block .rich-text{font-size:12px;line-height:1.9}}
